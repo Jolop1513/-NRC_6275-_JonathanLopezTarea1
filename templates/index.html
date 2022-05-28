@@ -90,7 +90,7 @@
         <!--Se usó la etiqueta de center-->
         <center> 
             <div>
-              <blockquote cite='http://html.conclase.net/w3c/html401...def-BLOCKQUOTE'>
+              <blockquote cite='https://jjlopez17.wixsite.com/website-1'>
                 <p>
                   <h2><strong>¿Quiénes somos?</strong></h2> <br>
                  <div> Nosotros somos una tienda online de camisetas de fútbol económicas , donde puedes 
@@ -111,6 +111,38 @@
                 </p>
               </blockquote>
             </div>
+
+      <!--Componente cards- para crear dos cartas con los tipos de criptomonedas-->
+  <div>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Camiseta 1ª Real Madrid 2021/2022</h5>
+
+            <img src="{{url_for('static', filename='Img/2.jpg')}}">
+            <p class="card-text">67,49$</p>
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Camiseta 1ª FC Barcelona 2021/2022</h5>
+
+            <img src="{{url_for('static', filename='Img/3.jpg')}}">
+
+            <p class="card-text">67,49$</p>
+
+            <a href="#" class="btn btn-primary">Agregar al carrito</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div><br><br>
 
    
 </body>
